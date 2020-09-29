@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  top: 0;
+}
+
+.intro {
+  background-color: #9cebd5;
+  width: 100%;
+  height: 100%;
+}
+
+.foodEmote {
+  font-size: 100px;
+}
+
+.foodRow1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.foodRow2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foodRow3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: 70px;
+  color: white;
+  font-family: "Georgia";
+  top: 50%;
+  left: 50%;
+}
+
+.formBody {
+  background-color: #e0ab94;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#idForm {
+  display: flex;
+  background: #9cebd5;
+  width: 340px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  opacity: 0;
+}
+
+#idTexte {
+  width: 200px;
+  height: 40px;
+  border: 0;
+}
+
+#idBouton {
+  width: 100px;
+  border: 0;
+  background-color: #efefef;
+}
+
+.crayon {
+  position: absolute;
+  top: 78%;
+}
